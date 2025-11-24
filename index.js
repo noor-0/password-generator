@@ -27,14 +27,14 @@ function generate(){
 function copy(box){
     if(box == '1'){
         navigator.clipboard.writeText(pbox1.textContent);
-        pbox1.textContent = 'Copied'
+        pbox1.textContent = 'Copied✅'
         setTimeout(() =>{
             pbox1.textContent = pass1;
         }, 1500);
     }
     else{
         navigator.clipboard.writeText(pbox2.textContent);
-        pbox2.textContent = 'Copied';
+        pbox2.textContent = 'Copied✅';
         setTimeout(() =>{
             pbox2.textContent = pass2;
         }, 1500)
