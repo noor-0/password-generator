@@ -4,17 +4,13 @@ body{
     align-items: center;
     height: 100%;
     font-family: sans-serif;
+    color: whitesmoke;
 }
 h1{
-    color: white;
     font-size: 50px;
     margin: 0;
     font-weight: bolder;
 }
-h3{
-    color: white;
-}
-
 .mainDiv{
     border-radius: 20px;
     border: 7px solid white;
@@ -25,7 +21,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px 65px;
+    padding: 50px 50px;
 }
 .passGent{
     width: 250px;
@@ -37,13 +33,19 @@ h3{
     color: whitesmoke;
     margin: 5px;
 }
+#slider{
+    background-color: red;
+    color: red;
+    border: 1px solid #0dc754;
+}
+
 .pdiv{
     display: flex;
     justify-content: space-around;
 }
 .pbox{
     background-color: #262B41;
-    width: 250px;
+    width: 290px;
     height: 40px;
     border: none;
     color: #00BC78;
@@ -55,6 +57,11 @@ h3{
 }
 .pbox:hover::after {
     content: attr('copy');
+}
+#lenDiv{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
 }
 hr {
     width: 600px;
